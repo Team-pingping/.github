@@ -28,10 +28,11 @@
 
 # 📁 ERD
 ### MySQL
-<img width="853" alt="image" src="https://github.com/user-attachments/assets/7a846a37-7111-41bc-a802-8db6f7224c42">
+![image](https://github.com/user-attachments/assets/f1e44e08-739c-4a63-8d58-3fa763f85a66)
 
 ### MongoDB
-<img width="1159" alt="image" src="https://github.com/user-attachments/assets/484799f0-cff2-49b5-adb0-b1063e2f5b14">
+![image](https://github.com/user-attachments/assets/5dcfc6e4-5371-4538-bdfe-1f819b465bff)
+
 
 <br>
 

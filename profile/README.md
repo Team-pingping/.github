@@ -21,12 +21,12 @@
 
 <br>
 
-# API 명세서
+# 📜 API 명세서
 [moping API 명세서 다운로드](https://github.com/user-attachments/files/17610402/Moping-Backend.API.Docs.pdf)
 
 <br>
 
-# ERD
+# 📁 ERD
 ### MySQL
 <img width="853" alt="image" src="https://github.com/user-attachments/assets/7a846a37-7111-41bc-a802-8db6f7224c42">
 
@@ -35,7 +35,7 @@
 
 <br>
 
-# 시스템 아키텍처
+# 🗺️ 시스템 아키텍처
 ![image](https://github.com/user-attachments/assets/8c64a505-22b4-466b-a527-5d4092854e95)
 
 <br>

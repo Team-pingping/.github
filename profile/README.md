@@ -1,46 +1,50 @@
+# 📌 모일때 맵핀, MOPING
+![모핑 메인](https://github.com/user-attachments/assets/a1bd3835-2a42-481f-93c8-e7c6694be1f6)
+
+<br>
+
+# 👨‍👧‍👦 팀 소개
+
+### **팀명 : 핑핑이들**
+
+| **분야** | **이름** | **포지션** | **내용** |
+| :---: | :---: | --- | --- |
+| 기획 | 박가은 | 📈 PM, 서비스 기획 | 유저 리서치, 와이어프레임 작성, 서비스 정책 확립, <br /> 비즈니스 모델 구축  |
+| 기획 | 김규리 | 📋 서비스 기획 | 유저 리서치, 와이어프레임 작성, 서비스 정책 확립, <br /> 비즈니스 모델 구축, 서비스 마케팅 리드 |
+| 기획 | 안재형 | 📊 서비스 기획 | 유저 리서치, 와이어프레임 작성, 서비스 정책 확립, <br /> 비즈니스 모델 구축, 서비스 마케팅 리드 |
+| 디자인 | 김윤서 | 🎨 디자인 리드 | ux/ui디자인, gui 디자인 |
+| 디자인 | 이어령 | 🎨 디자인 | ux/ui디자인, gui 디자인 |
+| 개발 | 최호 | 📱  프론트엔드 리드 | 화면 UI 구현, 서버 연동 |
+| 개발 | 최서희 | 📱 프론트엔드 | 화면 UI 구현, 서버 연동 |
+| 개발 | 문희상 | 💻 백엔드 리드 | DB 및 API 구축, 서버 배포 |
+| 개발 | 윤소민 | 💻 백엔드 | DB 및 API 구축, 서버 배포 |
+
+<br>
+
 # API 명세서
 [moping API 명세서 다운로드](https://github.com/user-attachments/files/17610402/Moping-Backend.API.Docs.pdf)
 
+<br>
+
 # ERD
 ### MySQL
-<img width="853" alt="image" src="https://github.com/user-attachments/assets/6a6fe19e-06ab-4784-894f-09ff2019ccc8">
+<img width="853" alt="image" src="https://github.com/user-attachments/assets/7a846a37-7111-41bc-a802-8db6f7224c42">
 
 ### MongoDB
-<img width="1159" alt="image" src="https://github.com/user-attachments/assets/e4545cb2-5662-490b-af02-0b072df38f61">
+<img width="1159" alt="image" src="https://github.com/user-attachments/assets/484799f0-cff2-49b5-adb0-b1063e2f5b14">
+
+<br>
 
 # 시스템 아키텍처
 ![image](https://github.com/user-attachments/assets/8c64a505-22b4-466b-a527-5d4092854e95)
 
-# 🛠️ 프론트엔드 개발 규칙
+<br>
 
-본 문서는 프론트엔드 개발팀을 위한 규칙과 가이드라인을 다룹니다. 프론트엔드와 백엔드 팀이 함께 준수해야 할 **공통 사항**과 프론트엔드 팀만의 **특화된 규칙**을 모두 포함하고 있습니다.
+# 🖼️ 프론트엔드 
 
----
+## 🛠️ 기술 스택
 
-# 👍 공통 사항
-
-- issue 생성 및 PR을 통해 본인이 구현한 부분에 대한 기록을 남겨야 합니다.
-- 예외처리는 항상 잘 만들어두기 (code, message, data)
-- 개발 기간 : 9/30 ~ 11/24
-- 스프린트 (3일간격) 진행 (해올 것을 정해서 해오기)
-
-- 수요일, 토요일
-
-- 단위 테스트 작성(service 메소드 별로) : Kotest 사용
-- 다른 사람이 알아보기 쉽도록 주석처리해야 합니다. (controller, service 메서드마다)
-    - javadoc 형식 https://jake-seo-dev.tistory.com/59
-- issue 생성 및 PR을 통해 본인이 구현한 부분에 대한 기록을 남겨야 합니다.
-- 테스트 및 원할한 서버 운영을 위한 로그를 작성해야 합니다.(에러나 운영에 필요한 로그. 검색시 검색어와 같은 로그)
-- 예외처리는 항상 잘 만들어두기 (code, message, data)
-- 개발 기간 : 9/30 ~ 11/24
-- 스프린트 (3일간격) 진행 (해올 것을 정해서 해오기)
-    - 수요일, 토요일
-
----
-
-# 🛠️ 기술 스택
-
-## Language, Framework, Library
+### Language, Framework, Library
 
 - **Next.js**: 서버 사이드 렌더링(SSR)과 정적 사이트 생성(SSG)을 지원하여 페이지 로딩 속도와 SEO를 최적화합니다. 이를 통해 웹 애플리케이션의 성능과 사용자 경험을 크게 향상시킬 수 있습니다.
 - **TypeScript**: 강력한 타입 검사와 정적 타입 체킹을 제공하여, 개발 중 발생할 수 있는 런타임 오류를 사전에 방지하고 코드의 전반적인 품질을 높입니다. Next.js와의 통합을 통해 오류를 조기에 감지하고, 대규모 코드베이스의 관리를 용이하게 해줍니다.
@@ -50,13 +54,17 @@
 - **ESLint**와 **Prettier**: 코드 스타일을 자동으로 검사하고 일관성을 유지하며, 코드의 품질과 가독성을 높여줍니다.
 - **Husky**: Git hooks를 활용해 코드 푸시 시 자동으로 코드 검사를 실행하여 협업 중 코드 품질을 보장합니다.
 
----
-
-## CICD
+### CICD
 
 - **Vercel**: Vercel의 CI/CD 파이프라인은 자동화된 빌드 및 배포를 제공하여 개발 효율성을 극대화합니다. 간단한 설정으로 코드 변경 사항이 실시간으로 배포되며, Next.js 애플리케이션 배포에 최적화된 환경을 제공합니다.
 
----
+### 🙏 협업 툴
+
+- **Slack**: 실시간 커뮤니케이션을 위한 협업 툴.
+- **Notion**: 문서화, 일정 관리, 작업 관리를 위한 툴.
+- **Gather**: 가상 오피스 환경에서 팀원들이 실시간 협업할 수 있는 툴.
+
+<br>
 
 ## Branch Naming Rule
 
@@ -75,7 +83,7 @@ branch는 작업 단위 & 기능 단위로 생성된 issue를 기반으로 합�
     - `docs`: 문서를 수정할 때 사용합니다.
     - `config`: 설정 파일 또는 환경 구성을 변경할 때 사용합니다.
 
----
+<br>
 
 ## File Naming Rule
 
@@ -93,17 +101,16 @@ branch는 작업 단위 & 기능 단위로 생성된 issue를 기반으로 합�
         - 스타일 파일은 **kebab-case**로 작성합니다.
         - 예시: `header-styles.scss`, `button.scss`
 
----
-# Pull Request Naming Rule & Template
+<br>
 
-Pull Request 작성 시 PR 제목과 내용 모두 중요합니다. PR 제목은 작업의 간결한 설명을, 내용은 변경 사항에 대한 구체적인 설명을 담아야 합니다.
+# PR
 
-## Pull Request Naming Rule
+### Pull Request Naming Rule
 
 - Pull Request: develop & main branch로 merge할 때에는 pull request가 필요합니다. PR 제목에는 간결하고 이해하기 쉬운 설명을 포함해야 합니다.
 - Pull Request Naming Rule: `[<Prefix>] <Description>` 의 양식을 준수하되, prefix는 commit message convention과 일관성을 유지합니다.
 
-### 예시:
+#### 예시:
 
 1. 새로운 UI 컴포넌트 추가
    - Pull Request Title: `[feat] 새로운 버튼 컴포넌트 추가`
@@ -114,11 +121,26 @@ Pull Request 작성 시 PR 제목과 내용 모두 중요합니다. PR 제목은
 4. 문서 수정 작업
    - Pull Request Title: `[docs] 프로젝트 README 업데이트`
 
----
+<br>
 
-## Pull Request Template
+### Issue 템플릿
 
-### 📄 Pull Request 템플릿
+#### 🐛 Bug Report 템플릿
+
+- **설명**: 버그에 대한 간단한 설명.
+- **재현 방법**: 버그를 재현할 수 있는 단계별 설명.
+- **예상 결과**: 기대했던 동작을 명시.
+- **환경**: OS, 브라우저 등의 환경 정보.
+
+#### ✨ Feature Request 템플릿
+
+- **설명**: 제안하는 기능에 대한 간략한 설명.
+- **동기**: 이 기능이 필요한 이유.
+- **예상되는 기능**: 예상되는 기능의 동작 방식 설명.
+
+### Pull Request Template
+
+#### 📄 Pull Request 템플릿
 
 - **관련 이슈**: 작업한 이슈 번호를 명시합니다.
 - **작업 내용**: 구현된 기능이나 변경 사항을 간략하게 설명합니다.
@@ -126,7 +148,7 @@ Pull Request 작성 시 PR 제목과 내용 모두 중요합니다. PR 제목은
 - **추가 사항**: 논의가 필요한 사항이 있으면 추가로 작성합니다.
 - **리뷰 요구 사항(선택)**: 특별히 검토가 필요한 사항이 있으면 적어주세요.
 
----
+<br>
 
 ## Commit Message Convention
 
@@ -152,39 +174,13 @@ Pull Request 작성 시 PR 제목과 내용 모두 중요합니다. PR 제목은
   - 예시: `[rename] #22 컴포넌트 파일명 수정`
 - **enhancement**: 기존 기능의 개선 또는 새로운 기능 추가 (사용자 경험, 성능 등)
   - 예시: `[enhancement] #25 사용자 피드백 반영하여 버튼 디자인 개선`
----
 
-## Issue 템플릿
+<br>
 
-### 🐛 Bug Report 템플릿
-
-- **설명**: 버그에 대한 간단한 설명.
-- **재현 방법**: 버그를 재현할 수 있는 단계별 설명.
-- **예상 결과**: 기대했던 동작을 명시.
-- **환경**: OS, 브라우저 등의 환경 정보.
-
-### ✨ Feature Request 템플릿
-
-- **설명**: 제안하는 기능에 대한 간략한 설명.
-- **동기**: 이 기능이 필요한 이유.
-- **예상되는 기능**: 예상되는 기능의 동작 방식 설명.
-
----
-
-## 🙏 협업 툴
-
-- **Slack**: 실시간 커뮤니케이션을 위한 협업 툴.
-- **Notion**: 문서화, 일정 관리, 작업 관리를 위한 툴.
-- **Gather**: 가상 오피스 환경에서 팀원들이 실시간 협업할 수 있는 툴.
-
-# 🛠️ 백엔드 개발 규칙
-
-본 문서는 백엔드 개발팀을 위한 규칙과 가이드라인을 다룹니다. 프론트엔드와 백엔드 팀이 함께 준수해야 할 **공통 사항**과 백엔드 팀만의 **특화된 규칙**을 모두 포함하고 있습니다.
-
----
+# 💻 백엔드 
 
 
-# 👍 공통 사항
+## 👍 공통 사항
 
 - 단위 테스트 작성(service 메소드 별로) : Kotest 사용
 - 다른 사람이 알아보기 쉽도록 주석처리해야 합니다. (controller, service 메서드마다)
@@ -198,7 +194,7 @@ Pull Request 작성 시 PR 제목과 내용 모두 중요합니다. PR 제목은
 
 <br>
 
-# 🛠️ 기술 스택
+## 🛠️ 기술 스택
 
 - #### Language, Framework, Library
   ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=Kotlin&logoColor=FFFFFF)
@@ -267,7 +263,7 @@ Pull Request 작성 시 PR 제목과 내용 모두 중요합니다. PR 제목은
 
 <br>
 
-# 🤙 개발규칙
+## 🤙 개발규칙
 
 ### ⭐ Code Convention
 
